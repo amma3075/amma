@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: StepDef.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.329 s <<< FAILURE! - in StepDef.TestRunner
+Run a non failing scenario(Test cucumber reporting plugin)  Time elapsed: 0.673 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'a successful step' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("a successful step")
+public void a_successful_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Run a failing scenario(Test cucumber reporting plugin)  Time elapsed: 0.012 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'a not successful step' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("a not successful step")
+public void a_not_successful_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

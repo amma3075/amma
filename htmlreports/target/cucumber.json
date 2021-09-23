@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-13T22:17:49.226Z",
+        "line": 3,
+        "name": "Run a non failing scenario",
+        "description": "",
+        "id": "test-cucumber-reporting-plugin;run-a-non-failing-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "a successful step",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T22:17:49.423Z",
+        "line": 6,
+        "name": "Run a failing scenario",
+        "description": "",
+        "id": "test-cucumber-reporting-plugin;run-a-failing-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "a not successful step",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Test cucumber reporting plugin",
+    "description": "",
+    "id": "test-cucumber-reporting-plugin",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/demo.feature",
+    "tags": []
+  }
+]
